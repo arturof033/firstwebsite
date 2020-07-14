@@ -75,7 +75,7 @@ function draw() {
     if (line1_x < 0 - line1_length) {
       line1_x = 400;
       line1_y = random(100, 350);
-      line1_length = random(100, 320);
+      line1_length = random(20, 320);
       decreaseLength_line1 += 0.5;
       lives--;
     }
@@ -102,7 +102,7 @@ function draw() {
         line2_x = 400;
         score++;
         line2_y = random(100, 350);
-        line2_length = random(20, 20);
+        line2_length = random(20, 320);
         decreaseLength_line2 += 0.5;
       }
     }
